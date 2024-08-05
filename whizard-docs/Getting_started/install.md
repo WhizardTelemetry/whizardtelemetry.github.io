@@ -1,22 +1,17 @@
+---
+sidebar_position: 1
+---
+
 # Whizard 部署
 
-## 1. 使用 Helm 快速部署和管理 Whizard
 
-helm 独立部署方式可以在kubernetes环境下完成独立部署，无需过多依赖，可使用 whizard 离线部署包快速完成部署。（附: [Whizard 部署包及离线镜像地址](https://cwiki.yunify.com/pages/viewpage.action?pageId=141383072)）
 
-```shell
-# 安装依赖的 prometheusrule CRD
+## 1. 在 KubeSphere Enterprise 中启用Whizard 可观测中心
 
-kubectl apply -f https://github.com/prometheus-operator/kube-prometheus/blob/main/manifests/setup/0prometheusruleCustomResourceDefinition.yaml
+### 1.1 在KSE 4.X 版本启用Whizard
 
-# 获取Whizard部署包并使用helm安装
 
-helm install whizard . -n kubesphere-monitoring-system --create-namespace
-```
-
-## 2. 在 KubeSphere Enterprise 中启用Whizard 可观测中心
-
-### 2.1 在 KSE 3.X 版本启用 Whizard 可观测中心
+### 1.2 在 KSE 3.X 版本启用 Whizard 可观测中心
 
 > 在KubeSphere 3.3.1 版本首次集成 Whizard 可观测中心，在 3.X 版本通过 `ks-installer` 集成部署。**Whizard 可观测中心要求启用多集群管理**。
 
@@ -86,6 +81,17 @@ status:
    kubectl apply -f cluster-configuration.yaml
    ```
 
-### 2.2 在KSE 4.X 版本启用Whizard
 
-TDB
+## 2. 使用 Helm 快速部署和管理 Whizard
+
+helm 独立部署方式可以在kubernetes环境下使用 helm chart 完成独立部署，无需过多依赖，可使用 whizard 离线部署包快速完成部署。（附: [Whizard 部署包及离线镜像地址](https://github.com/WhizardTelemetry/whizard/releases)）
+
+```shell
+# 安装依赖的 prometheusrule CRD
+
+kubectl apply -f https://github.com/prometheus-operator/kube-prometheus/blob/main/manifests/setup/0prometheusruleCustomResourceDefinition.yaml
+
+# 获取Whizard部署包并使用helm安装
+
+helm upgrade --install whizard . -n kubesphere-monitoring-system --create-namespace
+```

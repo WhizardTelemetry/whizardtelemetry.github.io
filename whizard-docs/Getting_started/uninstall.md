@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Whizard 卸载
 
 ## KSE 中数据停止向 Whizard 写入

@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Whizard 默认参数配置
 
 ## 系统参数配置
