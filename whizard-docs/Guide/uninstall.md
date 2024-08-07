@@ -1,12 +1,19 @@
 ---
-sidebar_position: 3
+sidebar_position: 6
+description: Whizard 卸载
 ---
 
 # Whizard 卸载
 
-## KSE 中数据停止向 Whizard 写入
+## KubeSphere Enterprise 4.x 卸载
 
-> 如果需要在KSE中停用可观测中心，恢复独立集群监控，可执行如下步骤:
+4.x 中卸载可卸载重装 **WhizardTelemetry 监控** 扩展组件，也可以参照之前启用方式，将原参数改回。
+
+## KubeSphere Enterprise 3.x 卸载
+
+### KubeSphere Enterprise 3.x 中将监控数据数据停止向 Whizard 写入
+
+> 如果需要在 KubeSphere Enterprise 3.x 中停用 Whizard 可观测中心，恢复独立集群监控，可执行如下步骤:
 
 ```shell
 kubectl edit cc -n kubesphere-system  ks-installer
@@ -31,7 +38,7 @@ status:
     status: enabled             #将monitoring.status: enabled  移除
 ```
 
-## Whizard 服务卸载
+### KubeSphere Enterprise 3.x 中移除 Whizard 服务
 
 1. 将 `whizard-adapter` 副本置为0， 停止 KuberSphere `Cluster` 与 Whizard `Tenant` 自动同步；
 

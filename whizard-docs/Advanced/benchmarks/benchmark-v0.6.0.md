@@ -1,4 +1,7 @@
-# Whizard(v0.6.0) 数据读写性能测试报告
+---
+sidebar_position: 2
+---
+# Whizard v0.6.0 数据读写性能测试报告
 
 ## 测试目的
 

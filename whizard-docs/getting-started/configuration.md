@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 description: 本文档介绍 Whizard 默认配置参数
 ---
 

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 description: 本文档介绍如何快速开始部署 Whizard
 ---
 

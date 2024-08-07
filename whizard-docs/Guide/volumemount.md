@@ -1,6 +1,11 @@
-# Whizard 服务本地持久卷挂载
+---
+sidebar_position: 4
+description: Whizard 本地持久卷挂载
+---
 
-> 注： 持久卷挂载配置亦可参考 [storage](https://github.com/prometheus-operator/prometheus-operator/blob/main/Documentation/user-guides/storage.md)
+# Whizard 本地持久卷挂载
+
+> 注： 持久卷挂载配置亦可参考 [prometheus-operator storage](https://github.com/prometheus-operator/prometheus-operator/blob/main/Documentation/user-guides/storage.md)
 
 **默认情况下，Whizard 会为 Ingester、Store、Compactor 等组件配置持久卷挂载，并使用默认的 StorageClass 动态创建。**
 

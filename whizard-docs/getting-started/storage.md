@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 description: 本文档介绍 Whizard 长期存储配置
 ---
 
