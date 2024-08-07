@@ -10,6 +10,10 @@ description: Whizard 存储
 
 `Whizard Storage` 适用于需要高效存储和检索大量监控数据的场景。通过支持对象存储，`Whizard Storage` 能够提供可靠的存储解决方案，确保数据的持久性和可用性。
 
+## Storage CRD 定义
+
+参见 [StorageSpec](../references/api/api.md)
+
 ## 未来计划
 
 未来，`Whizard Storage` 计划扩展支持更多的对象存储服务，如 Google Cloud Storage、Azure Blob Storage 等，以满足不同用户的需求。同时，将进一步优化存储和检索机制，提高系统的性能和效率。
