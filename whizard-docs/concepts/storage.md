@@ -12,7 +12,7 @@ description: Whizard 存储
 
 ## Storage CRD 定义
 
-参见 [StorageSpec](/whizard-docs/references/api/api.md)
+参见 [StorageSpec](https://whizardtelemetry.github.io/whizard-docs/references/api/api.md)
 
 ## 未来计划
 
