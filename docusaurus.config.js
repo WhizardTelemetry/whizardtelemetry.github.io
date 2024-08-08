@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'WhizardTelemetry',
-  tagline: 'WhizardTelemetry are cool',
+  tagline: 'WhizardTelemetry is a Cloud Native observability platform for Cloud Native and traditional infrastructure and applications.',
   favicon: 'img/WhizardTelemetry.svg',
 
   // Set the production url of your site here
