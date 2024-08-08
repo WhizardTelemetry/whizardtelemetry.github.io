@@ -28,4 +28,4 @@ spec:
 
 > `maxTime` 和 `minTime` 还支持配置 RFC3339 格式时间，例如：`2018-01-01T00:00:00Z`
 
-[默认内置参数](../getting-started/configuration.md) 中的 `store` 项提供了时间分区的默认配置，用户更新该默认配置项后，将在所有未配置 `timeRanges` 的 `Store` CR 实例中生效。
+[默认内置参数](/whizard-docs/getting-started/configuration.md) 中的 `store` 项提供了时间分区的默认配置，用户更新该默认配置项后，将在所有未配置 `timeRanges` 的 `Store` CR 实例中生效。

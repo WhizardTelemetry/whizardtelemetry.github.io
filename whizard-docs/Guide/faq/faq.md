@@ -6,7 +6,7 @@ description: Whizard 常见问题处理方法
 
 ## 1. 启用可观测中心后，监控页面无数据，该如何排查？
 
-首先检查配置与部署，集群应该开启多集群管理，在 host 集群上，我们因该看到如 [Whizard 部署架构及数据流图](advance/data-flow) 部署架构一样，已经完成 Whizard 组件的部署，各个 Pod 已就绪；
+首先检查配置与部署，集群应该开启多集群管理，在 host 集群上，我们因该看到如 [Whizard 部署架构及数据流图](https://whizardtelemetry.github.io/whizard-docs/guide/faq/advance/data-flow) 部署架构一样，已经完成 Whizard 组件的部署，各个 Pod 已就绪；
 
 其次检查各个集群的 Prometheus， 查看 Prometheus 日志，确认数据是否正常写入
 
