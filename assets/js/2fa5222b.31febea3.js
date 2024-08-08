@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwhizardtelemetry_github_io=self.webpackChunkwhizardtelemetry_github_io||[]).push([[9429],{3211:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"whizard-docs"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwhizardtelemetry_github_io=self.webpackChunkwhizardtelemetry_github_io||[]).push([[9647],{7121:(e,r,t)=>{t.r(r),t.d(r,{default:()=>l});t(6540);var s=t(4164),u=t(1213),a=t(7559),i=t(2831),h=t(781),c=t(4848);function l(e){return(0,c.jsx)(u.e3,{className:(0,s.A)(a.G.wrapper.docsPages),children:(0,c.jsx)(h.A,{children:(0,i.v)(e.route.routes)})})}}}]);
