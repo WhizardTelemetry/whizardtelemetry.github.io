@@ -32,4 +32,4 @@ description: Whizard 多租户设计
 
 ## Tenant CRD 定义
 
-参见 [TenantSpec](https://whizardtelemetry.github.io/whizard-docs/references/api/api.md)
+参见 [TenantSpec](https://whizardtelemetry.github.io/docs/whizard-docs/references/api/api.md)

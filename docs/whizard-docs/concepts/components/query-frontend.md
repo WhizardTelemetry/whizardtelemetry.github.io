@@ -1,4 +1,4 @@
-# QueryFrounend
+# QueryFrontend
 
 QueryFrontend 是 Thanos 组件之一，主要用于优化查询请求，提高查询性能。它通常与 Thanos Querier 组件配合使用，通过对查询请求进行缓存、分片和并发处理，加快查询速度，减少延迟。以下是 Thanos Query Frontend 的一些关键功能和特点：
 

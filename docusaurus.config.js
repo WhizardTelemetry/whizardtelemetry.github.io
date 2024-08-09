@@ -64,19 +64,6 @@ const config = {
     ],
   ],
 
-  plugins: [
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'whizard-docs', // 新的实例 ID
-        path: 'whizard-docs',
-        routeBasePath: 'whizard-docs',
-        sidebarPath: require.resolve('./sidebars-whizard-docs.js'),
-        editUrl:
-          'https://github.com/WhizardTelemetry/whizardtelemetry.github.io/tree/main/whizard-docs',
-      },
-    ],
-  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -94,12 +81,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
-          },
-          {
-            to: '/whizard-docs/intro',
-            label: 'Whizard Docs',
-            position: 'left',
+            label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -120,12 +102,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-              {
                 label: "Whizard Docs",
-                to: "/whizard-docs/intro",
+                to: "/docs/whizard-docs/intro",
               },
             ],
           },

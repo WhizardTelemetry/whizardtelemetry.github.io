@@ -21,5 +21,5 @@ Whizard 在 Thanos 之上，增强并简化 Thanos 多租户部署和管理。
 
 ## 接下来做什么？
 
-- 参阅入门指南 — [立即开始](https://whizardtelemetry.github.io/whizard-docs/getting-started/)！
-- 了解 [Whizard 的概念](https://whizardtelemetry.github.io/whizard-docs/concepts/)。
+- 参阅入门指南 — [立即开始](https://whizardtelemetry.github.io/docs/whizard-docs/getting-started/)！
+- 了解 [Whizard 的概念](https://whizardtelemetry.github.io/docs/whizard-docs/concepts/)。

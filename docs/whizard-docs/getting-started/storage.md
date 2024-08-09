@@ -31,7 +31,7 @@ Whizard 推荐使用本地存储 + 对象存储模式存储海量数据，本地
 kubectl create secret generic -n kubesphere-monitoring-system storage-remote-secret --from-literal=accessKey=<your_access_key> --from-literal=secretKey=<your_secret_key>
 ```
 
-然后，我们创建 Storage CR，更多 `storages.monitoring.whizard.io` 字段配置可参考其[定义](https://whizardtelemetry.github.io/whizard-docs/references/api/api.md)。
+然后，我们创建 Storage CR，更多 `storages.monitoring.whizard.io` 字段配置可参考其[定义](https://whizardtelemetry.github.io/docs/whizard-docs/references/api/api.md)。
 
 ```shell
 cat <<EOF | kubectl apply -f -
