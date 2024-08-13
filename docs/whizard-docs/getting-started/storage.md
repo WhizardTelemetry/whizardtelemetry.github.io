@@ -45,10 +45,10 @@ spec:
     bucket: "xxxxxxxxxx"
     endpoint: "s3.pek3b.qingstor.com:443"
     accessKey: 
-      name: storage-secret
+      name: storage-remote-secret
       key: accessKey
     secretKey: 
-      name: storage-secret
+      name: storage-remote-secret
       key: secretKey
 EOF
 ```
