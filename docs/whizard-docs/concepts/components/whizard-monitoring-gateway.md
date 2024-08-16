@@ -1,4 +1,4 @@
-# Whizard-monitoring-gateway
+# Gateway(Whizard-monitoring-gateway)
 
 `whizard-monitoring-gateway` 是一个关键组件，专门用于接收和处理来自 `Tenant` 端上传的监控数据。它的主要功能包括数据接收转储和查询。
 
