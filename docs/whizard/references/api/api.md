@@ -371,7 +371,7 @@ CompactorStatus
 </table>
 <h3 id="monitoring.whizard.io/v1alpha1.Gateway">Gateway</h3>
 <div>
-<p>The <code>Gateway</code> custom resource definition (CRD) defines a desired <a href="https://github.com/WhizardTelemetry/whizard-docs/blob/main/Architecture/components/whizard-monitoring-gateway.md">Gateway</a> setup to run in a Kubernetes cluster. It allows to specify many options such as the number of replicas, and many more.</p>
+<p>The <code>Gateway</code> custom resource definition (CRD) defines a desired <a href="https://whizardtelemetry.github.io/docs/whizard/concepts/components/whizard-monitoring-gateway">Gateway</a> setup to run in a Kubernetes cluster. It allows to specify many options such as the number of replicas, and many more.</p>
 <p>For each <code>Gateway</code> resource, the Operator deploys a <code>Deployment</code> in the same namespace.</p>
 </div>
 <table>

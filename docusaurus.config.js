@@ -103,7 +103,7 @@ const config = {
             items: [
               {
                 label: "Whizard Docs",
-                to: "/docs/whizard-docs/intro",
+                to: "/docs/whizard/intro",
               },
             ],
           },

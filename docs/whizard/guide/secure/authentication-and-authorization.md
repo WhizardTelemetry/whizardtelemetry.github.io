@@ -17,7 +17,6 @@ metadata:
   name: whizard
   namespace: kubesphere-monitoring-system
 spec:
-spec:
   debug: true
   enabledTenantsAdmission: true
   image: kubesphere/whizard-monitoring-gateway:latest
