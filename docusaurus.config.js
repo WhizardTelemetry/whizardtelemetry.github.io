@@ -13,15 +13,15 @@ const config = {
   favicon: 'img/WhizardTelemetry.svg',
 
   // Set the production url of your site here
-  url: 'https://whizardtelemetry.github.io',
+  url: 'https://wiztelemetry.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'WhizardTelemetry', // Usually your GitHub org/user name.
-  projectName: 'whizardtelemetry.github.io', // Usually your repo name.
+  organizationName: 'WizTelemetry', // Usually your GitHub org/user name.
+  projectName: 'wiztelemetry.github.io', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
@@ -48,7 +48,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/WhizardTelemetry/whizardtelemetry.github.io/',
+            'https://github.com/WizTelemetry/wiztelemetry.github.io/',
         },
         blog: {
           showReadingTime: true,
@@ -89,7 +89,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/WhizardTelemetry/',
+            href: 'https://github.com/WizTelemetry/',
             label: 'GitHub',
             position: 'right',
           },
@@ -133,7 +133,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/WhizardTelemetry',
+                href: 'https://github.com/WizTelemetry',
               },
             ],
           },
